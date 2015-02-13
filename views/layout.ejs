@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" ng-app="famousAngularStarter">
+
   <head>
     <title>New Sails App</title>
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
     <!--  
         Stylesheets and Preprocessors
         ==============================
@@ -29,7 +29,8 @@
     -->
 
     <!--STYLES-->
-    <link rel="stylesheet" href="/styles/importer.css">
+    <link rel="stylesheet" href="/styles/famous-angular.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <!--STYLES END-->
   </head>
 
@@ -80,15 +81,17 @@
       
       To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
       For example, here are a few things you could do:
-          
           + Change the order of your scripts
           + Import scripts from other directories
           + Use a different preprocessor, like TypeScript
 
     -->
 
+
     <!--SCRIPTS-->
     <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/js/famousAngularStarter.js"></script>
+    <script src="/js/main/main-ctrl.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>
